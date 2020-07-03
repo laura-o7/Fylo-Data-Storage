@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background-color: #0C122C;
+  font-weight: 400;
+  color: #DDDBFF;
+}
+
+.background {
+  border-radius: 210px 0 0 0;
+  width: 100%;
+  height: 365px;
+  background-color: #0C122C;
+  position: relative;
+  z-index: 1;
+}
+
+.top-container {
+  background-color: #0C122C;
+  height: 365px;
+  width: auto;
+}
+
+.left-container {
+  background-color: #1D2C67;
+  position: absolute;
+  left: 325px;
+  top: 280px;
+  height: 175px;
+  width: 305px;
+  z-index: 3;
+  border-radius: 10px 90px 10px 10px;
+}
+
+.right-container {
+  background-color: #1D2C67;
+  position: absolute;
+  left: 655px;
+  top: 325px;
+  height: 130px;
+  width: 470px;
+  border-radius: 10px;
+  z-index: 3;
+  font-size: 14px;
+}
+
+.top-p {
+  margin-top: 40px;
+  margin-left: 35px;
+}
+
+.bottom-p-left {
+  margin-left: 35px;
+  margin-top: 0;
+}
+
+.bottom-p-right {
+  position: absolute;
+  right: 35px;
+  bottom: 10px;
+}
+
+.range {
+  width: 25rem;
+  margin-left: 35px;
+  margin-bottom: 0;
+}
+
+.bubble {
+  background-color: #FFFFFF;
+  position: absolute;
+  left: 940px;
+  top: 290px;
+  height: 60px;
+  width: 150px;
+  z-index: 5;
+  border-radius: 5px 5px 0px 5px;
+  font-size: 10px;
+}
+
+.bubble-185 {
+  font-weight: 700;
+  color: #0C122C;
+  font-size: 35px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.bubble-gb-left {
+  color: #848794;
+  font-size: 10px;
+}
+
+.triangle {
+  position: absolute;
+  border: 18px solid transparent;
+  border-right:20px solid #FFFFFF;
+  top: 332px;
+  right: 429px;
+  z-index: 5;
+}
+
+.document {
+  background-color: #0C122C;
+  border-radius: 4px;
+  margin-left: 40px;
+  margin-top: 25px;
+  padding: 10px 11px;
+  position: absolute;
+  width: 39px;
+}
+
+.upload {
+  background-color: #0C122C;
+  border-radius: 4px;
+  margin-left: 149px;
+  margin-top: 25px;
+  padding: 13px 10px 14px 10px;
+  position: absolute;
+  width: 41px;
+}
+
+.folder {
+  background-color: #0C122C;
+  border-radius: 4px;
+  margin-left: 93px;
+  margin-top: 25px;
+  padding: 12px 11px;
+  position: absolute;
+  width: 42px;
+}
+
+.logo {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 120px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
