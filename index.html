@@ -11,7 +11,13 @@
   <title>Fylo Data Storage</title>
 
   <style>
-
+    .triangle {
+      clip-path: polygon(0% 0%, 100% 70%, 100% 0%);
+      background-color: #FFFFFF;
+      z-index: 6;
+      width: 20px;
+      height: 30px;
+    }
   </style>
 
 </head>
@@ -32,16 +38,23 @@
 
   <div class="right-container">
     <p class="top-p">You’ve used <strong>815 GB</strong> of your storage</p>
-    <input class="range" type="range" name="storage-left" value="715" min="0" max="1000" />
+    <div class="triangle">
+    </div>
+    <p>
+    <div class="progress-background">
+      <div class="progress-bar">
+        <div class="progress-dot">
+        </div>
+      </div>
+    </div>
+    </p>
     <p class="bottom-p-left"> <strong>0 GB</strong></p>
     <p class="bottom-p-right"><strong>1000 GB</strong></p>
   </div>
 
   <div class="bubble">
     <strong><span class="bubble-185">185</span> <span class="bubble-gb-left">GB LEFT</span></strong>
-  </div>
 
-  <div class="triangle">
   </div>
 
   <img class="background" src="images/bg-desktop.svg" alt="blue-background">
